@@ -1,7 +1,10 @@
 .grid {
+	background-color: #666;
+	border: 15px solid #666;
+	border-radius: 8px;
 	height: 500px;
 	width: 500px;
-	margin: 200px auto;
+	margin: 120px auto;
 
 	/*grid*/
 	display: grid;
@@ -12,4 +15,13 @@
 
 .grid > div {
 	background-color: black;
+}
+
+@media screen and (max-width: 575px){
+
+	.grid {
+		margin-top: 120px;
+		height: 85vw;
+		width: 85vw;
+	}
 }
