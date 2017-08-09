@@ -1,6 +1,5 @@
 .grid {
-	background-color: #666;
-	border: 15px solid #666;
+/*	border: 15px solid #666;*/
 	border-radius: 8px;
 	height: 500px;
 	width: 500px;
@@ -8,13 +7,13 @@
 
 	/*grid*/
 	display: grid;
-	grid-gap: 1px;
+	/*grid-gap: 1px;*/
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 }
-
-.grid > div {
-	background-color: black;
+img {
+	width: 99%;
+	height: 99%;
 }
 
 @media screen and (max-width: 575px){
