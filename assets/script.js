@@ -1,13 +1,25 @@
 $(document).ready();
 
-$(".box-one > div:gt(0)").hide();
+$(".effectA > div:gt(0)").hide();
 
 setInterval(function() { 
-  $('.box-one > div:first')
+  $('.effectA > div:first')
     .fadeOut(100)
     .next()
     .slideDown(500)
     .end()
-    .appendTo('.box-one');
+    .appendTo('.effectA');
 
-},  1000);	//time control between slides
+},  2000);	//time control between slides
+
+$(".effectB > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('.effectB > div:first')
+    .fadeOut(500)
+    .next()
+    .fadeIn(500)
+    .end()
+    .appendTo('.effectB');
+
+},  3000);	//time control between slides
