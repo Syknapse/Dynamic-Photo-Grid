@@ -1,5 +1,15 @@
 $(document).ready();
 
+//*****show & hide************
+
+$('.layerOne').show(3000);
+
+setTimeout(function() {
+    $('.grid').hide();
+}, 6000); // <-- time in milliseconds
+
+//*******************************
+
 // Effect A
 
 $("#box-one > div:gt(0)").hide();

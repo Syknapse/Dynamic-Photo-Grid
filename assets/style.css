@@ -1,3 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+	display: none;
+}
+
+.layerOne {
+	display: none;
+}
+
 .grid {
 	border-radius: 8px;
 	height: 500px;
@@ -30,3 +48,5 @@ img {
 		width: 85vw;
 	}
 }
+
+
