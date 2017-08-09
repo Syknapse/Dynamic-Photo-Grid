@@ -5,7 +5,7 @@ $(document).ready();
 $('.layerOne').show(3000);
 
 setTimeout(function() {
-    $('.grid').hide();
+    $('.layerOne').hide();
 }, 6000); // <-- time in milliseconds
 
 //*******************************
