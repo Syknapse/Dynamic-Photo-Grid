@@ -8,6 +8,23 @@
 	display: none;
 }
 
+.layerOne .grid > div {
+	background-color: white;
+}
+
+@keyframes colorchange {
+	0% {color: white;}
+	100% {color: black;}
+}
+
+#hello {
+	animation: colorchange 1s;
+}
+
+.layerTwo {
+	display: none;
+}
+
 .grid {
 	border-radius: 8px;
 	height: 500px;

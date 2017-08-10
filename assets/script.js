@@ -2,12 +2,25 @@ $(document).ready();
 
 //*****show & hide************
 
+//*****layerOne************
+
 setTimeout(function() {
     $('.layerOne').show();
-}, 2000);
+}, 100);
 
 setTimeout(function() {
     $('.layerOne').hide();
+}, 1999); // <-- time in milliseconds
+
+
+//*****layerTwo************
+
+setTimeout(function() {
+    $('.layerTwo').show();
+}, 2000);
+
+setTimeout(function() {
+    $('.layerTwo').hide();
 }, 10000); // <-- time in milliseconds
 
 //*******************************
