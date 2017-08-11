@@ -63,6 +63,14 @@ img {
 	display: none;
 }
 
+.layerFive {
+	display: none;
+}
+
+#jump1, #jump2, #jump3, #jump4, #jump5, #jump6, #jump7, #jump8, #jump9 {
+	display: none;
+}
+
 /* media query */
 
 @media screen and (max-width: 575px){

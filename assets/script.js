@@ -32,6 +32,16 @@ $(document).ready();
 	    $('.layerFour').hide();
 	}, 10000); // <-- time in milliseconds
 
+	//*****layerFive************
+
+	setTimeout(function() {
+	    $('.layerFive').show();
+	}, 10000);
+
+	setTimeout(function() {
+	    $('.layerFive').hide();
+	}, 12000); // <-- time in milliseconds
+
 
 //***********Effects********************
 
@@ -171,4 +181,41 @@ $(document).ready();
 		    .appendTo('#box-eight');
 		},  4300);	//time control between slides
 		//**********End layerFour Effect*********
-	
+
+		//**********layerFive Effect*********
+	setTimeout(function() {
+	    $('#jump1').show();
+	}, 10500);
+
+	setTimeout(function() {
+	    $('#jump2').show();
+	}, 10500);
+
+	setTimeout(function() {
+	    $('#jump3').show();
+	}, 10500);
+
+	setTimeout(function() {
+	    $('#jump4').show();
+	}, 11000);
+
+	setTimeout(function() {
+	    $('#jump5').show();
+	}, 11000);
+
+	setTimeout(function() {
+	    $('#jump6').show();
+	}, 11000);
+
+	setTimeout(function() {
+	    $('#jump7').show();
+	}, 11500);
+
+	setTimeout(function() {
+	    $('#jump8').show();
+	}, 11500);
+
+	setTimeout(function() {
+	    $('#jump9').show();
+	}, 11500);
+	//**********End layerFive Effect*********
