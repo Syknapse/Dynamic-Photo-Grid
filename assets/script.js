@@ -22,15 +22,25 @@ $(document).ready();
 	    $('.layerTwo').hide();
 	}, 3800); // <-- time in milliseconds
 
+	//**********layerThree*********
+
+	setTimeout(function() {
+	    $('.layerThree').show();
+	}, 3800);
+
+	setTimeout(function() {
+	    $('.layerThree').hide();
+	}, 6000); // <-- time in milliseconds
+
 	//*****layerFour************
 
 	setTimeout(function() {
 	    $('.layerFour').show();
-	}, 3800);
+	}, 6000);
 
 	setTimeout(function() {
 	    $('.layerFour').hide();
-	}, 10000); // <-- time in milliseconds
+	}, 20000); // <-- time in milliseconds
 
 	//*****layerFive************
 
@@ -83,6 +93,47 @@ $(document).ready();
 	}, 3600);
 	//**********End layerTwo Effect*********
 
+	//**********layerThree Effect*********
+
+	setTimeout(function() {
+	    $('#imgB1').show();
+	}, 4400);
+
+	setTimeout(function() {
+	    $('#imgB2').show();
+	}, 4700);
+
+	setTimeout(function() {
+	    $('#imgB3').show();
+	}, 4400);
+
+	setTimeout(function() {
+	    $('#imgB4').show();
+	}, 4550);
+
+	setTimeout(function() {
+	    $('#imgB5').show();
+	}, 4350);
+
+	setTimeout(function() {
+	    $('#imgB6').show();
+	}, 4550);
+
+	setTimeout(function() {
+	    $('#imgB7').show();
+	}, 4200);
+
+	setTimeout(function() {
+	    $('#imgB8').show();
+	}, 4500);
+
+	setTimeout(function() {
+	    $('#imgB9').show();
+	}, 4250);
+
+	//**********End layerThree Effect*********
+
+
 	//***********layerFour***********
 		// Effect A***********
 
@@ -94,7 +145,7 @@ $(document).ready();
 		    .slideDown(500)
 		    .end()
 		    .appendTo('#box-one');
-		},  4000);	//time control between slides
+		},  6200);	//time control between slides
 
 		$("#box-three > div:gt(0)").hide();
 		setInterval(function() { 
@@ -104,7 +155,7 @@ $(document).ready();
 		    .slideDown(500)
 		    .end()
 		    .appendTo('#box-three');
-		},  4000);	//time control between slides
+		},  6200);	//time control between slides
 
 		$("#box-five > div:gt(0)").hide();
 		setInterval(function() { 
@@ -115,7 +166,7 @@ $(document).ready();
 		    .end()
 		    .appendTo('#box-five');
 
-		},  3800);	//time control between slides
+		},  6000);	//time control between slides
 
 		$("#box-seven > div:gt(0)").hide();
 		setInterval(function() { 
@@ -126,7 +177,7 @@ $(document).ready();
 		    .end()
 		    .appendTo('#box-seven');
 
-		},  4000);	//time control between slides
+		},  6200);	//time control between slides
 
 		$("#box-nine > div:gt(0)").hide();
 		setInterval(function() { 
@@ -136,7 +187,7 @@ $(document).ready();
 		    .slideDown(500)
 		    .end()
 		    .appendTo('#box-nine');
-		},  4000);	//time control between slides
+		},  6200);	//time control between slides
 
 
 		// Effect B ****************
@@ -149,7 +200,7 @@ $(document).ready();
 		    .fadeIn(500)
 		    .end()
 		    .appendTo('#box-two');
-		},  4100);	//time control between slides
+		},  6200);	//time control between slides
 
 		$("#box-four > div:gt(0)").hide();
 		setInterval(function() { 
@@ -159,7 +210,7 @@ $(document).ready();
 		    .fadeIn(500)
 		    .end()
 		    .appendTo('#box-four');
-		},  4000);	//time control between slides
+		},  6200);	//time control between slides
 
 		$("#box-six > div:gt(0)").hide();
 		setInterval(function() { 
@@ -169,7 +220,7 @@ $(document).ready();
 		    .fadeIn(500)
 		    .end()
 		    .appendTo('#box-six');
-		},  4200);	//time control between slides
+		},  6400);	//time control between slides
 
 		$("#box-eight > div:gt(0)").hide();
 		setInterval(function() { 
@@ -179,7 +230,7 @@ $(document).ready();
 		    .fadeIn(500)
 		    .end()
 		    .appendTo('#box-eight');
-		},  4300);	//time control between slides
+		},  6500);	//time control between slides
 		//**********End layerFour Effect*********
 
 		//**********layerFive Effect*********
