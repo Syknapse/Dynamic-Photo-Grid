@@ -4,11 +4,15 @@
 	border: 0;
 }
 
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
 .grid {
 	border-radius: 8px;
 	height: 500px;
 	width: 500px;
-	margin: 120px auto;
+	margin: 120px auto 50px auto;
 
 	/*grid*/
 	display: grid;
@@ -49,6 +53,7 @@ img {
 
 #hello {
 	animation: colorchange 2s;
+	font-size: 20px;
 }
 
 .layerTwo {
@@ -79,23 +84,39 @@ img {
 	display: none;
 }
 /* footer */
+#contact {
+	display: none;
+}
 .footer {
-	display: flex;
-	justify-content: center;
+	margin: auto;
+	width: 500px;
+	display: grid;
+	grid-template-columns: 3fr 1fr 3fr;
+	justify-items: center;
+	align-items: center;
+	grid-template-areas:
+		"elena github syko";
 }
 a {
 	color: black;
 }
 /* buttons */
 .elena {
-	margin-right: 20px;
-	margin-top: 12px;
+	/*margin-right: 20px;
+	margin-top: 12px;*/
+	grid-area: elena;
 }
 .syko {
-	margin-left: 20px;
-	margin-top: 12px;
+	/*margin-left: 20px;
+	margin-top: 12px;*/
+	grid-area: syko;
+}
+.github {
+	grid-area: github;
 }
 .btn {
+	height: 40px;
+	width: 160px;
     background-color: silver; 
     border: none;
     border-radius: 6px;
@@ -121,6 +142,18 @@ a {
 		height: 85vw;
 		width: 85vw;
 	}
+
+	.footer {
+		width: 85vw;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-template-areas: 
+			"elena"
+			"syko"
+			"github";
+
+	}
+
 }
 
 
