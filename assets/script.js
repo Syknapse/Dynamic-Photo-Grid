@@ -46,11 +46,11 @@ $(document).ready();
 
 	setTimeout(function() {
 	    $('.layerFive').show();
-	}, 10000);
+	}, 20000);
 
-	setTimeout(function() {
-	    $('.layerFive').hide();
-	}, 12000); // <-- time in milliseconds
+	// setTimeout(function() {
+	//     $('.layerFive').hide();
+	// }, 25000); // <-- time in milliseconds
 
 
 //***********Effects********************
@@ -236,37 +236,37 @@ $(document).ready();
 		//**********layerFive Effect*********
 	setTimeout(function() {
 	    $('#jump1').show();
-	}, 10500);
+	}, 20500);
 
 	setTimeout(function() {
 	    $('#jump2').show();
-	}, 10500);
+	}, 20500);
 
 	setTimeout(function() {
 	    $('#jump3').show();
-	}, 10500);
+	}, 20500);
 
 	setTimeout(function() {
 	    $('#jump4').show();
-	}, 11000);
+	}, 21000);
 
 	setTimeout(function() {
 	    $('#jump5').show();
-	}, 11000);
+	}, 21000);
 
 	setTimeout(function() {
 	    $('#jump6').show();
-	}, 11000);
+	}, 21000);
 
 	setTimeout(function() {
 	    $('#jump7').show();
-	}, 11500);
+	}, 21500);
 
 	setTimeout(function() {
 	    $('#jump8').show();
-	}, 11500);
+	}, 21500);
 
 	setTimeout(function() {
 	    $('#jump9').show();
-	}, 11500);
+	}, 21500);
 	//**********End layerFive Effect*********
