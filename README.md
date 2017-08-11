@@ -1,7 +1,7 @@
-<h1><a href="https://elena-in-code.github.io/Dynamic-Photo-Grid/" target="_blank"><strong>Dynamic-Photo-Grid</strong></a></h1>
+<h1><a href="https://syknapse.github.io/Dynamic-Photo-Grid/" target="_blank"><strong>Dynamic-Photo-Grid</strong></a></h1>
 <img src="https://user-images.githubusercontent.com/30567608/29226281-b8c86c6a-7ed1-11e7-8b96-b661fc959992.PNG">
 <p>Dynamic Photo Grid</p>
-<p>This is a <strong>self-initiated project</strong> developed in partnership with <a href="https://github.com/Syknapse/Dynamic-Photo-Grid" target="_blank"> Syk Houdeib </a></p>
+<p>This is a <strong>self-initiated project</strong>, an idea by and developed in collaboration with <a href="https://github.com/elena-in-code/Dynamic-Photo-Grid" target="_blank"> Elena Moral </a></p>
 <br>
 <p>The inspiration for this project is the advert Apple showed on Instagram to introduce their official account there</p>
 <h3>Technologies used: </h3>
@@ -13,7 +13,7 @@
  </ul>
 <h3>User Stories: </h3>
  <ul>
- 	<li>It should self initiate once the page it is open</li>
+ 	<li>It should start automatically once the page it is open</li>
   <li>Refresh the page to see it again</li>
  	<li>There are links available on the page, at the end of the presentation</li>
   <li>The site might currently be flagged as unsafe in your browser because of mixed media, it will need permission to load. Hope it will resolved soon!</li>
