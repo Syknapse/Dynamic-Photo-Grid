@@ -83,6 +83,47 @@ $(document).ready();
 	}, 3600);
 	//**********End layerTwo Effect*********
 
+	//**********layerThree Effect*********
+
+	setTimeout(function() {
+	    $('#imgB1').show();
+	}, 4000);
+
+	setTimeout(function() {
+	    $('#imgB2').show();
+	}, 4200);
+
+	setTimeout(function() {
+	    $('#imgB3').show();
+	}, 4200);
+
+	setTimeout(function() {
+	    $('#imgB4').show();
+	}, 4200);
+
+	setTimeout(function() {
+	    $('#imgB5').show();
+	}, 4200);
+
+	setTimeout(function() {
+	    $('#imgB6').show();
+	}, 4200);
+
+	setTimeout(function() {
+	    $('#imgB7').show();
+	}, 4200);
+
+	setTimeout(function() {
+	    $('#imgB8').show();
+	}, 4200);
+
+	setTimeout(function() {
+	    $('#imgB9').show();
+	}, 4200);
+
+	//**********End layerThree Effect*********
+
+
 	//***********layerFour***********
 		// Effect A***********
 
@@ -149,7 +190,7 @@ $(document).ready();
 		    .fadeIn(500)
 		    .end()
 		    .appendTo('#box-two');
-		},  4100);	//time control between slides
+		},  4000);	//time control between slides
 
 		$("#box-four > div:gt(0)").hide();
 		setInterval(function() { 
