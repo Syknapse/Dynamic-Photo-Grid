@@ -26,7 +26,7 @@ $(document).ready();
 
 	setTimeout(function() {
 	    $('.layerFour').show();
-	}, 2000);
+	}, 3800);
 
 	setTimeout(function() {
 	    $('.layerFour').hide();
@@ -84,7 +84,7 @@ $(document).ready();
 		    .slideDown(500)
 		    .end()
 		    .appendTo('#box-one');
-		},  2700);	//time control between slides
+		},  4000);	//time control between slides
 
 		$("#box-three > div:gt(0)").hide();
 		setInterval(function() { 
@@ -94,7 +94,7 @@ $(document).ready();
 		    .slideDown(500)
 		    .end()
 		    .appendTo('#box-three');
-		},  2700);	//time control between slides
+		},  4000);	//time control between slides
 
 		$("#box-five > div:gt(0)").hide();
 		setInterval(function() { 
@@ -105,7 +105,7 @@ $(document).ready();
 		    .end()
 		    .appendTo('#box-five');
 
-		},  2500);	//time control between slides
+		},  3800);	//time control between slides
 
 		$("#box-seven > div:gt(0)").hide();
 		setInterval(function() { 
@@ -116,7 +116,7 @@ $(document).ready();
 		    .end()
 		    .appendTo('#box-seven');
 
-		},  2700);	//time control between slides
+		},  4000);	//time control between slides
 
 		$("#box-nine > div:gt(0)").hide();
 		setInterval(function() { 
@@ -126,7 +126,7 @@ $(document).ready();
 		    .slideDown(500)
 		    .end()
 		    .appendTo('#box-nine');
-		},  2700);	//time control between slides
+		},  4000);	//time control between slides
 
 
 		// Effect B ****************
@@ -139,7 +139,7 @@ $(document).ready();
 		    .fadeIn(500)
 		    .end()
 		    .appendTo('#box-two');
-		},  3100);	//time control between slides
+		},  4100);	//time control between slides
 
 		$("#box-four > div:gt(0)").hide();
 		setInterval(function() { 
@@ -149,7 +149,7 @@ $(document).ready();
 		    .fadeIn(500)
 		    .end()
 		    .appendTo('#box-four');
-		},  3000);	//time control between slides
+		},  4000);	//time control between slides
 
 		$("#box-six > div:gt(0)").hide();
 		setInterval(function() { 
@@ -159,7 +159,7 @@ $(document).ready();
 		    .fadeIn(500)
 		    .end()
 		    .appendTo('#box-six');
-		},  3200);	//time control between slides
+		},  4200);	//time control between slides
 
 		$("#box-eight > div:gt(0)").hide();
 		setInterval(function() { 
@@ -169,6 +169,6 @@ $(document).ready();
 		    .fadeIn(500)
 		    .end()
 		    .appendTo('#box-eight');
-		},  3300);	//time control between slides
+		},  4300);	//time control between slides
 		//**********End layerFour Effect*********
 	
