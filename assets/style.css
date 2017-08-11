@@ -70,33 +70,38 @@ img {
 #jump1, #jump2, #jump3, #jump4, #jump5, #jump6, #jump7, #jump8, #jump9 {
 	display: none;
 }
-/* buttons */
-.btn {
-	font-size: 16px;
-	width: auto;
-	padding: 3px;
-	border: 1px solid silver;
-	margin: 5px;
-	background-color: white;
-	border-radius: 6px;
-}
-
-.btn:hover {
-	color: white;
-	background-color: silver;
-}
 /* footer */
 .footer {
-	display: none;
+	display: flex;
+	justify-content: center;
 }
-.footer ul {
-	text-align: center;
-	margin-bottom: 10%;
+a {
+	color: black;
 }
-.footer ul li {
-	display: inline-block;
+/* buttons */
+.elena {
 	margin-right: 20px;
+	margin-top: 12px;
+}
+.syko {
 	margin-left: 20px;
+	margin-top: 12px;
+}
+.btn {
+    background-color: silver; 
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* media query */
