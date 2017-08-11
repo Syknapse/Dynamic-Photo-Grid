@@ -53,6 +53,7 @@ $(document).ready();
 	// }, 25000); // <-- time in milliseconds
 
 
+
 //***********Effects********************
 
 	//**********layerTwo Effect*********
@@ -289,7 +290,13 @@ $(document).ready();
 
 	setTimeout(function() {
 	    $('#jump9').show();
-	}, 21500);
+		}, 21500);
+
+		//**********Footer Effect*********
+		setTimeout(function() {
+	    $('.footer').show();
+	}, 12000);
+
 	//**********End layerFive Effect*********
 
 	
