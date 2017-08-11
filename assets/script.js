@@ -38,9 +38,9 @@ $(document).ready();
 	    $('.layerFive').show();
 	}, 10000);
 
-	setTimeout(function() {
-	    $('.layerFive').hide();
-	}, 12000); // <-- time in milliseconds
+	// setTimeout(function() {
+	//     $('.layerFive').hide();
+	// }, 20000); // <-- time in milliseconds
 
 
 //***********Effects********************
@@ -218,4 +218,9 @@ $(document).ready();
 	setTimeout(function() {
 	    $('#jump9').show();
 	}, 11500);
+
+		//**********Footer Effect*********
+		setTimeout(function() {
+	    $('.footer').show();
+	}, 12000);
 	//**********End layerFive Effect*********

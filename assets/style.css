@@ -70,6 +70,34 @@ img {
 #jump1, #jump2, #jump3, #jump4, #jump5, #jump6, #jump7, #jump8, #jump9 {
 	display: none;
 }
+/* buttons */
+.btn {
+	font-size: 16px;
+	width: auto;
+	padding: 3px;
+	border: 1px solid silver;
+	margin: 5px;
+	background-color: white;
+	border-radius: 6px;
+}
+
+.btn:hover {
+	color: white;
+	background-color: silver;
+}
+/* footer */
+.footer {
+	display: none;
+}
+.footer ul {
+	text-align: center;
+	margin-bottom: 10%;
+}
+.footer ul li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
 
 /* media query */
 
