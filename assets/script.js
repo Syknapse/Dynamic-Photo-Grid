@@ -2,30 +2,30 @@ $(document).ready();
 
 //*****show & hide************
 
-setTimeout(function() {
-    $('.layerOne').show();
-}, 2000);
+	//**********layerOne*********
+	setTimeout(function() {
+	    $('.layerOne').show();
+	}, 100);
 
-setTimeout(function() {
-    $('.layerOne').hide();
-}, 10000); // <-- time in milliseconds
+	setTimeout(function() {
+	    $('.layerOne').hide();
+	}, 2000); // <-- time in milliseconds
 
-//**********layerThree*********
+	//**********layerTwo*********
 
-setTimeout(function() {
-    $('.layerThree').show();
-}, 10000);
+	setTimeout(function() {
+	    $('.layerTwo').show();
+	}, 2000);
 
-setTimeout(function() {
-    $('.layerThree').hide();
-}, 25000); // <-- time in milliseconds
+	setTimeout(function() {
+	    $('.layerTwo').hide();
+	}, 3800); // <-- time in milliseconds
 
 //*******************************
 
 // Effect A
 
 $("#box-one > div:gt(0)").hide();
-
 setInterval(function() { 
   $('#box-one > div:first')
     .fadeOut(100)
@@ -33,11 +33,9 @@ setInterval(function() {
     .slideDown(500)
     .end()
     .appendTo('#box-one');
-
 },  2700);	//time control between slides
 
 $("#box-three > div:gt(0)").hide();
-
 setInterval(function() { 
   $('#box-three > div:first')
     .fadeOut(100)
@@ -45,11 +43,9 @@ setInterval(function() {
     .slideDown(500)
     .end()
     .appendTo('#box-three');
-
 },  2700);	//time control between slides
 
 $("#box-five > div:gt(0)").hide();
-
 setInterval(function() { 
   $('#box-five > div:first')
     .fadeOut(100)
@@ -61,7 +57,6 @@ setInterval(function() {
 },  2500);	//time control between slides
 
 $("#box-seven > div:gt(0)").hide();
-
 setInterval(function() { 
   $('#box-seven > div:first')
     .fadeOut(100)
@@ -73,7 +68,6 @@ setInterval(function() {
 },  2700);	//time control between slides
 
 $("#box-nine > div:gt(0)").hide();
-
 setInterval(function() { 
   $('#box-nine > div:first')
     .fadeOut(100)
@@ -81,14 +75,12 @@ setInterval(function() {
     .slideDown(500)
     .end()
     .appendTo('#box-nine');
-
 },  2700);	//time control between slides
 
 
 // Effect B **************************************
 
 $("#box-two > div:gt(0)").hide();
-
 setInterval(function() { 
   $('#box-two > div:first')
     .fadeOut(500)
@@ -96,11 +88,9 @@ setInterval(function() {
     .fadeIn(500)
     .end()
     .appendTo('#box-two');
-
 },  3100);	//time control between slides
 
 $("#box-four > div:gt(0)").hide();
-
 setInterval(function() { 
   $('#box-four > div:first')
     .fadeOut(500)
@@ -108,11 +98,9 @@ setInterval(function() {
     .fadeIn(500)
     .end()
     .appendTo('#box-four');
-
 },  3000);	//time control between slides
 
 $("#box-six > div:gt(0)").hide();
-
 setInterval(function() { 
   $('#box-six > div:first')
     .fadeOut(500)
@@ -120,11 +108,9 @@ setInterval(function() {
     .fadeIn(500)
     .end()
     .appendTo('#box-six');
-
 },  3200);	//time control between slides
 
 $("#box-eight > div:gt(0)").hide();
-
 setInterval(function() { 
   $('#box-eight > div:first')
     .fadeOut(500)
@@ -132,52 +118,42 @@ setInterval(function() {
     .fadeIn(500)
     .end()
     .appendTo('#box-eight');
-
 },  3300);	//time control between slides
 
-//**********layerThree*********
-$("#box-one-l3 > div:gt(0)").hide();
+//**********layerTwo Effect*********
 setTimeout(function() {
-    $('#box-one-l3 ').show();
-}, 10500);
+    $('#img-1').show();
+}, 2000);
 
-$("#box-two-l3 > div:gt(0)").hide();
 setTimeout(function() {
-    $('#box-two-l3').show();
-}, 11500);
+    $('#img-2').show();
+}, 2200);
 
-$("#box-three-l3 > div:gt(0)").hide();
 setTimeout(function() {
-    $('#box-three-l3').show();
-}, 12500);
+    $('#img-3').show();
+}, 2400);
 
-$("#box-four-l3 > div:gt(0)").hide();
 setTimeout(function() {
-    $('#box-four-l3').show();
-}, 13500);
+    $('#img-4').show();
+}, 2600);
 
-$("#box-five-l3 > div:gt(0)").hide();
 setTimeout(function() {
-    $('#box-five-l3').show();
-}, 18500);
+    $('#img-5').show();
+}, 2800);
 
-$("#box-six-l3 > div:gt(0)").hide();
 setTimeout(function() {
-    $('#box-six-l3').show();
-}, 15500);
+    $('#img-6').show();
+}, 3000);
 
-$("#box-seven-l3 > div:gt(0)").hide();
 setTimeout(function() {
-    $('#box-seven-l3').show();
-}, 16500);
+    $('#img-7').show();
+}, 3200);
 
-$("#box-eight-l3 > div:gt(0)").hide();
 setTimeout(function() {
-    $('#box-eight-l3').show();
-}, 17500);
+    $('#img-8').show();
+}, 3400);
 
-$("#box-nine-l3 > div:gt(0)").hide();
 setTimeout(function() {
-    $('#box-nine-l3').show();
-}, 18500);
-
+    $('#img-9').show();
+}, 3600);
+//**********End layerTwo Effect*********
