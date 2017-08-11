@@ -22,11 +22,21 @@ $(document).ready();
 	    $('.layerTwo').hide();
 	}, 3800); // <-- time in milliseconds
 
+	//**********layerThree*********
+
+	setTimeout(function() {
+	    $('.layerThree').show();
+	}, 3800);
+
+	setTimeout(function() {
+	    $('.layerThree').hide();
+	}, 6000); // <-- time in milliseconds
+
 	//*****layerFour************
 
 	setTimeout(function() {
 	    $('.layerFour').show();
-	}, 3800);
+	}, 6000);
 
 	setTimeout(function() {
 	    $('.layerFour').hide();
