@@ -4,6 +4,18 @@
 	border: 0;
 }
 
+.layerOne {
+	display: none;
+}
+
+.layerTwo {
+	display: none;
+}
+
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8, #img-9{
+	display: none;
+}
+
 .grid {
 	border-radius: 8px;
 	height: 500px;
