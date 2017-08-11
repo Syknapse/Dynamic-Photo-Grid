@@ -1,5 +1,30 @@
 $(document).ready();
 
+//*****show & hide************
+
+//*****layerOne************
+
+setTimeout(function() {
+    $('.layerOne').show();
+}, 100);
+
+setTimeout(function() {
+    $('.layerOne').hide();
+}, 1999); // <-- time in milliseconds
+
+
+//*****layerFour************
+
+setTimeout(function() {
+    $('.layerFour').show();
+}, 2000);
+
+setTimeout(function() {
+    $('.layerFour').hide();
+}, 10000); // <-- time in milliseconds
+
+//*******************************
+
 // Effect A
 
 $("#box-one > div:gt(0)").hide();
