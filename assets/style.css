@@ -12,7 +12,7 @@ body {
 	border-radius: 8px;
 	height: 500px;
 	width: 500px;
-	margin: 120px auto 50px auto;
+	margin: 40px auto 20px auto;
 
 	/*grid*/
 	display: grid;
@@ -102,13 +102,9 @@ a {
 }
 /* buttons */
 .elena {
-	/*margin-right: 20px;
-	margin-top: 12px;*/
 	grid-area: elena;
 }
 .syko {
-	/*margin-left: 20px;
-	margin-top: 12px;*/
 	grid-area: syko;
 }
 .github {
@@ -151,9 +147,6 @@ a {
 			"elena"
 			"syko"
 			"github";
-
 	}
 
 }
-
-

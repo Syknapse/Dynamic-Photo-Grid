@@ -48,11 +48,6 @@ $(document).ready();
 	    $('.layerFive').show();
 	}, 12300);
 
-	// setTimeout(function() {
-	//     $('.layerFive').hide();
-	// }, 25000); // <-- time in milliseconds
-
-
 
 //***********Effects********************
 
@@ -257,15 +252,15 @@ $(document).ready();
 
 		//**********layerFive Effect*********
 	setTimeout(function() {
-	    $('#jump1').show();
+	    $('#jump1').fadeIn(800);
 	}, 12300);
 
 	setTimeout(function() {
-	    $('#jump2').show();
+	    $('#jump2').fadeIn(800);
 	}, 12300);
 
 	setTimeout(function() {
-	    $('#jump3').show();
+	    $('#jump3').fadeIn(800);
 	}, 12300);
 
 	setTimeout(function() {
