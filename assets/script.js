@@ -22,25 +22,36 @@ $(document).ready();
 	    $('.layerTwo').hide();
 	}, 3800); // <-- time in milliseconds
 
+	//**********layerThree*********
+
+	setTimeout(function() {
+	    $('.layerThree').show();
+	}, 3800);
+
+	setTimeout(function() {
+	    $('.layerThree').hide();
+	}, 6000); // <-- time in milliseconds
+
 	//*****layerFour************
 
 	setTimeout(function() {
 	    $('.layerFour').show();
-	}, 3800);
+	}, 6000);
 
 	setTimeout(function() {
 	    $('.layerFour').hide();
-	}, 10000); // <-- time in milliseconds
+	}, 20000); // <-- time in milliseconds
 
 	//*****layerFive************
 
 	setTimeout(function() {
 	    $('.layerFive').show();
-	}, 10000);
+	}, 20000);
 
 	// setTimeout(function() {
 	//     $('.layerFive').hide();
-	// }, 20000); // <-- time in milliseconds
+	// }, 25000); // <-- time in milliseconds
+
 
 
 //***********Effects********************
@@ -83,144 +94,209 @@ $(document).ready();
 	}, 3600);
 	//**********End layerTwo Effect*********
 
+	//**********layerThree Effect*********
+
+	setTimeout(function() {
+	    $('#imgB1').show();
+	}, 4400);
+
+	setTimeout(function() {
+	    $('#imgB2').show();
+	}, 4700);
+
+	setTimeout(function() {
+	    $('#imgB3').show();
+	}, 4400);
+
+	setTimeout(function() {
+	    $('#imgB4').show();
+	}, 4550);
+
+	setTimeout(function() {
+	    $('#imgB5').show();
+	}, 4350);
+
+	setTimeout(function() {
+	    $('#imgB6').show();
+	}, 4550);
+
+	setTimeout(function() {
+	    $('#imgB7').show();
+	}, 4200);
+
+	setTimeout(function() {
+	    $('#imgB8').show();
+	}, 4500);
+
+	setTimeout(function() {
+	    $('#imgB9').show();
+	}, 4250);
+
+	//**********End layerThree Effect*********
+
+
 	//***********layerFour***********
 		// Effect A***********
 
-		$("#box-one > div:gt(0)").hide();
-		setInterval(function() { 
-		  $('#box-one > div:first')
-		    .fadeOut(100)
-		    .next()
-		    .slideDown(500)
-		    .end()
-		    .appendTo('#box-one');
-		},  4000);	//time control between slides
+		setTimeout(function(){
+			$("#box-one > div:gt(0)").hide();
+			setInterval(function() { 
+			  $('#box-one > div:first')
+			    .fadeOut(100)
+			    .next()
+			    .slideDown(500)
+			    .end()
+			    .appendTo('#box-one');
+			},  2200);	//time control between slides
+		},6000);
+		
+	
+		setTimeout(function(){
+			$("#box-three > div:gt(0)").hide();
+			setInterval(function() { 
+			  $('#box-three > div:first')
+			    .fadeOut(100)
+			    .next()
+			    .slideDown(500)
+			    .end()
+			    .appendTo('#box-three');
+			},  2200);	//time control between slides
+		},6000);
+		
+		setTimeout(function(){
+			$("#box-five > div:gt(0)").hide();
+			setInterval(function() { 
+			  $('#box-five > div:first')
+			    .fadeOut(100)
+			    .next()
+			    .slideDown(500)
+			    .end()
+			    .appendTo('#box-five');
 
-		$("#box-three > div:gt(0)").hide();
-		setInterval(function() { 
-		  $('#box-three > div:first')
-		    .fadeOut(100)
-		    .next()
-		    .slideDown(500)
-		    .end()
-		    .appendTo('#box-three');
-		},  4000);	//time control between slides
+			},  2000);	//time control between slides
+		},6000);
 
-		$("#box-five > div:gt(0)").hide();
-		setInterval(function() { 
-		  $('#box-five > div:first')
-		    .fadeOut(100)
-		    .next()
-		    .slideDown(500)
-		    .end()
-		    .appendTo('#box-five');
+		setTimeout(function(){
+			$("#box-seven > div:gt(0)").hide();
+			setInterval(function() { 
+			  $('#box-seven > div:first')
+			    .fadeOut(100)
+			    .next()
+			    .slideDown(500)
+			    .end()
+			    .appendTo('#box-seven');
 
-		},  3800);	//time control between slides
+			},  2200);	//time control between slides
+		},6000);
 
-		$("#box-seven > div:gt(0)").hide();
-		setInterval(function() { 
-		  $('#box-seven > div:first')
-		    .fadeOut(100)
-		    .next()
-		    .slideDown(500)
-		    .end()
-		    .appendTo('#box-seven');
+		setTimeout(function(){
+			$("#box-nine > div:gt(0)").hide();
+			setInterval(function() { 
+			  $('#box-nine > div:first')
+			    .fadeOut(100)
+			    .next()
+			    .slideDown(500)
+			    .end()
+			    .appendTo('#box-nine');
 
-		},  4000);	//time control between slides
-
-		$("#box-nine > div:gt(0)").hide();
-		setInterval(function() { 
-		  $('#box-nine > div:first')
-		    .fadeOut(100)
-		    .next()
-		    .slideDown(500)
-		    .end()
-		    .appendTo('#box-nine');
-		},  4000);	//time control between slides
+			},  2200);	//time control between slides
+		},5900);
 
 
 		// Effect B ****************
 
-		$("#box-two > div:gt(0)").hide();
-		setInterval(function() { 
-		  $('#box-two > div:first')
-		    .fadeOut(500)
-		    .next()
-		    .fadeIn(500)
-		    .end()
-		    .appendTo('#box-two');
-		},  4100);	//time control between slides
+		setTimeout(function(){
+			$("#box-two > div:gt(0)").hide();
+			setInterval(function() { 
+			  $('#box-two > div:first')
+			    .fadeOut(500)
+			    .next()
+			    .fadeIn(500)
+			    .end()
+			    .appendTo('#box-two');
+			},  2200);	//time control between slides
+		}, 5900);
+		
+		setTimeout(function(){
+			$("#box-four > div:gt(0)").hide();
+			setInterval(function() { 
+			  $('#box-four > div:first')
+			    .fadeOut(500)
+			    .next()
+			    .fadeIn(500)
+			    .end()
+			    .appendTo('#box-four');
+			},  2200);	//time control between slides
+		}, 5900);
 
-		$("#box-four > div:gt(0)").hide();
-		setInterval(function() { 
-		  $('#box-four > div:first')
-		    .fadeOut(500)
-		    .next()
-		    .fadeIn(500)
-		    .end()
-		    .appendTo('#box-four');
-		},  4000);	//time control between slides
+		setTimeout(function(){
+			$("#box-six > div:gt(0)").hide();
+			setInterval(function() { 
+			  $('#box-six > div:first')
+			    .fadeOut(500)
+			    .next()
+			    .fadeIn(500)
+			    .end()
+			    .appendTo('#box-six');
+			},  2400);	//time control between slides
+		}, 5900);
 
-		$("#box-six > div:gt(0)").hide();
-		setInterval(function() { 
-		  $('#box-six > div:first')
-		    .fadeOut(500)
-		    .next()
-		    .fadeIn(500)
-		    .end()
-		    .appendTo('#box-six');
-		},  4200);	//time control between slides
+		setTimeout(function(){
+			$("#box-eight > div:gt(0)").hide();
+			setInterval(function() { 
+			  $('#box-eight > div:first')
+			    .fadeOut(500)
+			    .next()
+			    .fadeIn(500)
+			    .end()
+			    .appendTo('#box-eight');
+			},  2500);	//time control between slides
+		}, 5900);
 
-		$("#box-eight > div:gt(0)").hide();
-		setInterval(function() { 
-		  $('#box-eight > div:first')
-		    .fadeOut(500)
-		    .next()
-		    .fadeIn(500)
-		    .end()
-		    .appendTo('#box-eight');
-		},  4300);	//time control between slides
 		//**********End layerFour Effect*********
 
 		//**********layerFive Effect*********
 	setTimeout(function() {
 	    $('#jump1').show();
-	}, 10500);
+	}, 20500);
 
 	setTimeout(function() {
 	    $('#jump2').show();
-	}, 10500);
+	}, 20500);
 
 	setTimeout(function() {
 	    $('#jump3').show();
-	}, 10500);
+	}, 20500);
 
 	setTimeout(function() {
 	    $('#jump4').show();
-	}, 11000);
+	}, 21000);
 
 	setTimeout(function() {
 	    $('#jump5').show();
-	}, 11000);
+	}, 21000);
 
 	setTimeout(function() {
 	    $('#jump6').show();
-	}, 11000);
+	}, 21000);
 
 	setTimeout(function() {
 	    $('#jump7').show();
-	}, 11500);
+	}, 21500);
 
 	setTimeout(function() {
 	    $('#jump8').show();
-	}, 11500);
+	}, 21500);
 
 	setTimeout(function() {
 	    $('#jump9').show();
-	}, 11500);
+		}, 21500);
 
 		//**********Footer Effect*********
 		setTimeout(function() {
 	    $('.footer').show();
 	}, 12000);
+
 	//**********End layerFive Effect*********
+
+	

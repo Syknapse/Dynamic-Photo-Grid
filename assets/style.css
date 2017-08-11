@@ -59,6 +59,14 @@ img {
 	display: none;
 }
 
+.layerThree {
+	display: none;
+}
+
+#imgB1, #imgB2, #imgB3, #imgB4, #imgB5, #imgB6, #imgB7, #imgB8, #imgB9 {
+	display: none;
+}
+
 .layerFour {
 	display: none;
 }
