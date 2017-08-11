@@ -4,27 +4,6 @@
 	border: 0;
 }
 
-.layerOne {
-	display: none;
-}
-
-.layerOne .grid > div {
-	background-color: white;
-}
-
-@keyframes colorchange {
-	0% {color: white;}
-	100% {color: black;}
-}
-
-#hello {
-	animation: colorchange 1s;
-}
-
-.layerTwo {
-	display: none;
-}
-
 .grid {
 	border-radius: 8px;
 	height: 500px;
@@ -48,6 +27,34 @@ img {
 .container > div { 
     position: absolute; 
 }
+
+/* LAYERS */
+
+.layerOne {
+	display: none;
+}
+
+#box-five-l1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@keyframes colorchange {
+	0% {color: white;}
+	70% {color: black;}
+	100% {color: white;}
+}
+
+#hello {
+	animation: colorchange 2s;
+}
+
+.layerFour {
+	display: none;
+}
+
+/* media query */
 
 @media screen and (max-width: 575px){
 

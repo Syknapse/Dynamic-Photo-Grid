@@ -13,14 +13,14 @@ setTimeout(function() {
 }, 1999); // <-- time in milliseconds
 
 
-//*****layerTwo************
+//*****layerFour************
 
 setTimeout(function() {
-    $('.layerTwo').show();
+    $('.layerFour').show();
 }, 2000);
 
 setTimeout(function() {
-    $('.layerTwo').hide();
+    $('.layerFour').hide();
 }, 10000); // <-- time in milliseconds
 
 //*******************************
