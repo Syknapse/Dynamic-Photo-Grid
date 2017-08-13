@@ -131,18 +131,34 @@ $(document).ready();
 
 
 	//***********layerFour***********
+
+// REFACTORING ******************
+// started the refactoring, only done to first box. problem is that in the function called effectA it refers to Box 1 not to the others that have the same effect.
+// function effectA() { 
+//   $('#box-one > div:first').fadeOut(100).next().slideDown(500).end().appendTo('#box-one');
+// }
+
+function slideShow(box){
+	$("box > div:gt(0)").hide();
+	setInterval(function() { 
+	  $('box > div:first')
+	    .fadeOut(100)
+	    .next()
+	    .slideDown(500)
+	    .end()
+	    .appendTo('box');
+	},  2000);	//time control between slides
+}
+			
+
+
+
+// REFACTORING ******************
+
 		// Effect A***********
 
 		setTimeout(function(){
-			$("#box-one > div:gt(0)").hide();
-			setInterval(function() { 
-			  $('#box-one > div:first')
-			    .fadeOut(100)
-			    .next()
-			    .slideDown(500)
-			    .end()
-			    .appendTo('#box-one');
-			},  2000);	//time control between slides
+			slideShow($("#box-one"));
 		},5000);
 		
 	
