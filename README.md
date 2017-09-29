@@ -16,7 +16,6 @@
  	<li>It should start automatically once the page it is open</li>
   <li>Refresh the page to see it again</li>
  	<li>There are links available on the page, at the end of the presentation</li>
-  <li>The site might currently be flagged as unsafe in your browser because of mixed media, it will need permission to load. Hope it will resolved soon!</li>
   </ul>
   
  <h5>Hope you enjoy it!</h5>
